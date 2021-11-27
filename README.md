@@ -2,31 +2,31 @@
 
 In this example there is a NodeJS Express backend returning a binary image. The Ionic 5 frontend consumes the Get receiving that binary image.
 
-It's also interesting that a pipe and a module have been created. Check it out!
+It's also interesting that an angular pipe and a module have been created. Check it out!
 
 ## Getting Started
 
-After cloning this project don't forget to:
+After cloning this project follow the steps. 
+
+First of all change the directory to the downloaded project:
 
 ```
-cd NodeJSImageGet/backend
+cd NodeJSImageGet
+```
+
+After that run your backend:
+
+```
+cd backend
 npm install
-```
-
-After that:
-
-```
 node index.js
 ```
 
+And finally run your frontend:
+
 ```
-cd NodeJSImageGet/frontend
+cd ../frontend
 npm install
-```
-
-After that:
-
-```
 ionic serve
 ```
 
